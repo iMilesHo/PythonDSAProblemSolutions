@@ -2,6 +2,10 @@
 
 My Data structure and Algorithm Problem Solutions in Python
 
+<div align="center">
+  <img src="resources/progress.svg" alt="LeetCode Top 150 Progress Dashboard" width="850" />
+</div>
+
 ## Content table
 
 ```

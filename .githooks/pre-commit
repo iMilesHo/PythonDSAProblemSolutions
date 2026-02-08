@@ -1,0 +1,11 @@
+#!/bin/sh
+# Auto-update progress dashboard before each commit
+# if any src/ files or the JSON are staged.
+
+STAGED=$(git diff --cached --name-only)
+
+if echo "$STAGED" | grep -qE '^(src/|resources/Top150Leetcode\.json|scripts/generate_progress\.py)'; then
+    echo "🔄 Updating progress dashboard..."
+    python3 scripts/generate_progress.py
+    git add resources/progress.svg
+fi
