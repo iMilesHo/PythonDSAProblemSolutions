@@ -35,4 +35,8 @@ class Solution2:
                 candidate = x
             count += 1 if x == candidate else -1
         return candidate
-        
+
+"""
+Elevator pitch:
+
+"""
