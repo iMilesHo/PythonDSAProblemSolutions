@@ -1,4 +1,12 @@
 """
+# Best Time to Buy and Sell Stock II
+
+- **ID:** 122
+- **Difficulty:** MEDIUM
+- **Topic Tags:** Array, Dynamic Programming, Greedy
+- **Link:** [LeetCode Problem](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/)
+
+
 122. Best Time to Buy and Sell Stock II
 Medium
 Topics
